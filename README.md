@@ -1,6 +1,6 @@
 # AdventOfCode2022
 - [X] day1
-- [ ] day2
+- [X] day2
 - [ ] day3
 - [ ] day4
 - [ ] day5
