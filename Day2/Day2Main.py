@@ -1,6 +1,6 @@
 """
  * Emre Bayazitoglu, 2023 (emre-samet61@hotmail.de)
- * Day 1 of Advent of Code 2022
+ * Day 2 of Advent of Code 2022
  * Calorie Counting
 """
 
@@ -9,7 +9,7 @@ pointPerOutcome = {'Lose': 0, 'Draw': 3, 'Win': 6}
 pointPerStrategy = {'Rock': 1, 'Paper': 2, 'Scissors': 3}
 
 
-def readInput():
+def readInput() -> list:
     roundsAsOneList = []
     with open("rpsFile.txt", 'r') as inputFile:
         linesAsList = inputFile.readlines()
@@ -20,7 +20,7 @@ def readInput():
     return roundsAsOneList
 
 
-def sumOfPoints(oneRound):
+def sumOfPoints(oneRound: list) -> int:
     sumPoints = 0
     for round in oneRound:
         goodElfChoice = strategyGuide[round[2]]
