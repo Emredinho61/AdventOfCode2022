@@ -1,7 +1,7 @@
 """
  * Emre Bayazitoglu, 2023 (emre-samet61@hotmail.de)
  * Day 2 of Advent of Code 2022
- * Calorie Counting
+ * Rock Paper Scissors
 """
 
 strategyGuide = {'A': 'Rock', 'B': 'Paper', 'C': 'Scissors', 'X': 'Rock', 'Y': 'Paper', 'Z': 'Scissors'}

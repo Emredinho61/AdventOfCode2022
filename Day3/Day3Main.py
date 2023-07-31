@@ -1,7 +1,7 @@
 """
  * Emre Bayazitoglu, 2023 (emre-samet61@hotmail.de)
  * Day 3 of Advent of Code 2022
- * Calorie Counting
+ * Rucksack Reorganization
 """
 
 
